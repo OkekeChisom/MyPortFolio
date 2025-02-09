@@ -201,3 +201,55 @@ body{
     width: 100px;
     border-radius: 2rem;
 }
+
+/* working on the responsiveness  */
+
+@media (max-width: 1024px) {
+    .we {
+        font-size: 2.5rem;
+    }
+    
+    .port {
+        font-size: x-large;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .welcome {
+        padding: 50px 20px;
+    }
+
+    .we {
+        font-size: 2rem;
+    }
+
+    .service {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .we {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .don {
+        width: 90%;
+    }
+}
