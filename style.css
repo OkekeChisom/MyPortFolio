@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1f242d;
+    color: #fff;
+}
+
+.nav{
+    display: flex;
+    padding: 20px;
+
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav ul li{
+    list-style: none;
+}
+
+.port{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    padding: 20px;
+
+
+}
+.don{
+    border-radius: 500px;
+    width: 500px;
+
+
+}
+
+.welcome{
+    padding: 100px;
+}
+.we{
+    font-size: 4rem;
+}
+
+.dev{
+    color: #ff0000;
+    font-style: oblique;
+
+}
+.welcome h2{
+    display: inline-block;
+
+}
+
+.welcome  h2 span{
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: .7px #ff0000;
+    animation: display-text 16s linear infinite;
+    animation-delay: calc(-4s * var(--i));
+}
+
+.welcome h2 span::before{
+    content: attr(data-text);
+    position: absolute;
+    width: 100;
+    border-right: 2px solid #ff0000;
+    color: #ff0000;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-text 4s linear infinite;
+}
+@keyframes fill-text {
+    10%,
+    100%{
+        width: 0;
+    }
+    70%,
+    90%{
+        width: 100%;
+    }
+}
+@keyframes display-text {
+    25%,
+    100%{
+        display: none;
+
+    }
+}
+
+.button{
+    border: 4px solid #1f242d;
+    border-radius: 3rem;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ff0000;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #1f242d;
+    border: 4px solid #008000;
+    color: #fff;
+    transition: all  1s ease-in-out;
+    transform: scale(1);
+
+}
+
+.ima{
+    width: 5dvb;
+    border: 2px solid red;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 1s ease-in-out;
+}
+.ima :hover{
+    transform: scale(1);
+    transition: .3s;
+
+}
+
+.men{
+    display: flex;
+}
+
+.men div{
+    background-color: red;
+    padding: 100px;
+    margin: px;
+
+}
+
+.butto{
+    border: 3px solid #c20c0c;
+    border-radius: 3rem;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    cursor: pointer;
+    background-color: #1ad42a;
+    color: #fff;
+    transition: all 1s ease-in-out;
+    transform: rotate(45deg);
+}
+.butto:hover{
+    background-color: rgb(37, 33, 33);
+    transform: scale(1);
+}
+.service{
+    display: flex;
+    padding: 100px;
+    margin: 0px;
+    background-color: rgb(52, 58, 58);
+}
+
+.service div{
+    background-color: #008000;
+    padding: 50px;
+    margin: 20px;
+}
+
+.form{
+    width: 500px;
+    padding: 30px;
+    margin: 20px;
+    background-color: #008000;
+    border-radius: 10px;
+}
+
+.form input{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 1rem;
+}
+
+.formbutt{
+    border-radius: 3rem;
+    padding: 20px;
+    margin: 20px;
+    
+    
+}
+
+.foot{
+    background-color: #30300e;
+    text-align: center;
+
+}
+.foot button{
+    width: 100px;
+    border-radius: 2rem;
+}
